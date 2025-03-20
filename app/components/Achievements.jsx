@@ -53,7 +53,7 @@ const Achievements = () => {
           </div>
           <div className="mt-2 text-left text-md">
             <p>
-              Worked in a team of 6 members to provide solution to problem statement - "Real-time Ganga river water quality forecasting using AI - enabled DSS, satellite data, IoT, and dynamic models."
+              Worked in a team of 6 members to provide solution to problem statement - &quot;Real-time Ganga river water quality forecasting using AI - enabled DSS, satellite data, IoT, and dynamic models.&quot;
             </p>
           </div>
           <div className="text-left">
@@ -117,7 +117,7 @@ const Achievements = () => {
               {/* Worked as part of Experiences and Devices Team in the M-365
               organization with primary focus to enrich the user experience and
               help users get all the personal information at their fingertips */}
-              Worked in a team of 5 members to provide solution to problem statement - "Sustainable solution to divert e-waste from informal to formal sector with responsible disposal, resource recovery and awareness while addressing infrastructure, behavior, and social impact challenges."
+              Worked in a team of 5 members to provide solution to problem statement - &quot;Sustainable solution to divert e-waste from informal to formal sector with responsible disposal, resource recovery and awareness while addressing infrastructure, behavior, and social impact challenges.&quot;
             </p>
             {/* <ul className="mt-5 ml-9 list-disc space-y-2">
               <li>
