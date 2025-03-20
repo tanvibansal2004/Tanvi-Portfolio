@@ -72,8 +72,8 @@ const Navbar = () => {
                     <ul className=' flex p-4 md:p-0 md:flex-row md:space-x-1 mt-4 mb-4 font-semibold'>
                         {
                             navLinks.map((link, index) => (
-                                <li>
-                                    <button key={index} className='px-6 py-2 rounded-full hover:text-white hover:bg-zinc-800'>
+                                <li key={index}>
+                                    <button className='px-6 py-2 rounded-full hover:text-white hover:bg-zinc-800'>
                                         <Navlink href={link.path} title={link.title} />
                                     </button>
                                 </li>
