@@ -19,6 +19,13 @@ const Projects = () => {
             pushing limits in ever evolving environments.&quot;
           </p>
           <div className="grid sm:grid-cols-1 md:grid-cols-2 mt-10 gap-4 gap-y-8">
+          <Projectcard
+              title="WhirlWash"
+              smallDesc="Mobile Laundry Management App"
+              desc="A full-stack mobile application built to streamline laundry services for college dormitories. WhirlWash provides students with an intuitive interface to book washing machines, receive real-time updates on their laundry status, and optimize machine usage across campus."
+              video="/BTPFast.mp4"
+              link="https://github.com/tanvibansal2004/WhirlWash"
+            />
             <Projectcard
               title="Clima"
               smallDesc="Mobile Weather Application"
@@ -47,13 +54,13 @@ const Projects = () => {
                 image='/images/portfolio-project.png'
                 link=''
             /> */}
-            <Projectcard
+            {/* <Projectcard
               title="Bubble Game"
               smallDesc="1 Player Game"
               desc="A fun, single-player game designed to improve my JavaScript skills! Players have 60 seconds to match numbers on bubbles and score as many points as possible. This project highlights my ability to work with game logic, interactive design, and JavaScript."
               video="/BBVideo.mp4"
               link="https://github.com/tanvibansal2004/Bubble-Game"
-            />
+            /> */}
           </div>
         </div>
       </div>
