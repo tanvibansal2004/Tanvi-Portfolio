@@ -7,6 +7,7 @@ import Email from "./components/Email";
 import Footer from "./components/Footer"
 import Communities from "./components/Communities"
 import Achievements from "./components/Achievements";
+import Experience from "./components/Experience"
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#181818]">
@@ -17,6 +18,7 @@ export default function Home() {
             <Projects />
             <Coding />
             <Achievements />
+            <Experience />
             <Communities />
             <Email />
         </div>

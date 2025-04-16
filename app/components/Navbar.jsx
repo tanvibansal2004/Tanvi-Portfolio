@@ -29,6 +29,10 @@ const navLinks = [
         path: "#achievements"
     },
     {
+        title: "Experience",
+        path: '#experience'
+    },
+    {
         title: "Communities",
         path: "#communities"
     },
@@ -43,7 +47,7 @@ const Navbar = () => {
     return (
         <nav className='fixed top-0 left-0 right-0 z-20 bg-[#181818] bg-opacity-90'>
             <div className='flex flex-wrap items-center justify-between mx-auto py-3'>
-                <Link href={"/"} className='text-2xl text-white font-bold ml-10 my-auto relative group'>
+                <Link href={"/"} className='text-2xl text-white font-bold ml-6 my-auto relative group'>
                     tanvi.
                     <div className='absolute w-full h-0.5 bg-white/80 scale-x-0 group-hover:scale-x-100 transition-all duration-300'></div>
                 </Link>
@@ -73,7 +77,7 @@ const Navbar = () => {
                         {
                             navLinks.map((link, index) => (
                                 <li key={index}>
-                                    <button className='px-6 py-2 rounded-full hover:text-white hover:bg-zinc-800'>
+                                    <button className='px-4 py-2 rounded-full hover:text-white hover:bg-zinc-800'>
                                         <Navlink href={link.path} title={link.title} />
                                     </button>
                                 </li>
@@ -83,7 +87,7 @@ const Navbar = () => {
                 <div className='flex'>
                     <Connectlink href={'https://www.linkedin.com/in/tanvi-bansal-900191280/'} path='/images/linkedin.png'/>
                     <Connectlink href={'https://github.com/tanvibansal2004'} path= '/images/github.png'/>
-                    <Connectlink href={'https://drive.google.com/file/d/1OkYuW0zbBKCHksDVR_Mk1wmSxlpL1B5V/view?usp=drive_link'} path='/images/resume.png'/>
+                    <Connectlink href={'https://drive.google.com/file/d/1QLUk2D-DuWpEKCqnvlYHKPMSQwB0FIgb/view?usp=sharing'} path='/images/resume.png'/>
                 </div>
             </div>
             {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
