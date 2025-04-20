@@ -9,7 +9,7 @@ const Achievements = () => {
     >
       <div className="text-center text-[#ADB7BE]">
         <span className="text-3xl lg:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-          Achievements
+          Achievement
         </span>
         {/* bg-[#484747] */}
 
