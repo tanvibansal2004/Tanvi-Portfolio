@@ -17,10 +17,77 @@ const Experience = () => {
           <div className="md:flex justify-between">
             <div className="text-left">
               <h4 className="md:text-lg font-bold text-md">
+                Web Developer - Intern
+              </h4>
+              <h6 className="text-sm mt-1 text-[#5f69cc] font-bold">
+                <a
+                  href="https://www.sih.gov.in/sih2024PS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Celebrare
+                </a>
+              </h6>
+            </div>
+            <div className="flex flex-col text-right">
+              <div className="flex">
+                <div className="italic text-sm">May 2025 - July 2025 (ongoing)</div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-2 text-left text-md">
+            <p>
+              Currently working as a Web Developer Intern, contributing to
+              real-world product features aimed at enhancing user experience and
+              simplifying celebration planning.
+            </p>
+            <ul className="list-disc pl-8 pr-12 mt-2">
+              <li>
+                Collaborating with the tech team to design and implement
+                responsive UI components using modern JavaScript frameworks.
+              </li>
+              <li>
+                Actively involved in debugging, optimizing performance, and
+                deploying features that go live in production.
+              </li>
+              <li>
+                Gaining hands-on experience in scalable frontend development,
+                version control (Git), and working in an agile, startup
+                environment.
+              </li>
+            </ul>
+          </div>
+
+          {/* <div className="text-left">
+            <button className="group">
+              <a
+                href="/SIH Certificate.pdf"
+                target="_blank"
+                className="flex px-2 py-1 rounded hover:bg-[#313131] text-sm items-center mt-3 text-white w-25"
+              >
+                <span className="text-[#ADB7BE] group-hover:underline text-md">View certificate</span>
+                <Image
+                  src="/images/maximize.png"
+                  width={15}
+                  height={15}
+                  className="ml-2"
+                ></Image>
+              </a>
+            </button>
+          </div> */}
+        </div>
+        <div className="md:mt-9 w-5/6 mx-auto px-0 py-5 ">
+          <div className="md:flex justify-between">
+            <div className="text-left">
+              <h4 className="md:text-lg font-bold text-md">
                 Teaching Assistant - Operating Systems Lab
               </h4>
               <h6 className="text-sm mt-1 text-[#5f69cc] font-bold">
-                <a href="https://www.sih.gov.in/sih2024PS" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.sih.gov.in/sih2024PS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   OS Lab Course, LNMIIT
                 </a>
               </h6>
@@ -33,7 +100,11 @@ const Experience = () => {
           </div>
           <div className="mt-2 text-left text-md">
             <p>
-            Assisted students in grasping core Operating Systems concepts during lab sessions and guided them through practical implementations. Provided one-on-one support in debugging code and understanding process management, synchronization, and memory handling.
+              Assisted students in grasping core Operating Systems concepts
+              during lab sessions and guided them through practical
+              implementations. Provided one-on-one support in debugging code and
+              understanding process management, synchronization, and memory
+              handling.
             </p>
           </div>
           {/* <div className="text-left">
@@ -61,7 +132,11 @@ const Experience = () => {
                 Teaching Assistant - Computer Networks Lab
               </h4>
               <h6 className="text-sm mt-1 text-[#5f69cc] font-bold">
-                <a href="https://www.sih.gov.in/sih2024PS" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.sih.gov.in/sih2024PS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   CN Lab Course, LNMIIT
                 </a>
               </h6>
@@ -74,7 +149,10 @@ const Experience = () => {
           </div>
           <div className="mt-2 text-left text-md">
             <p>
-            Supported students in understanding core Computer Networks concepts during lab sessions through practical experiments and simulations. Assisted in debugging network configurations and clarifying topics like routing, protocols, and socket programming.
+              Supported students in understanding core Computer Networks
+              concepts during lab sessions through practical experiments and
+              simulations. Assisted in debugging network configurations and
+              clarifying topics like routing, protocols, and socket programming.
             </p>
           </div>
           {/* <div className="text-left">
@@ -102,20 +180,30 @@ const Experience = () => {
                 Teaching Assistant - Database Management Lab
               </h4>
               <h6 className="text-sm mt-1 text-[#5f69cc] font-bold">
-                <a href="https://www.sih.gov.in/sih2024PS" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.sih.gov.in/sih2024PS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   DBMS Lab Course, LNMIIT
                 </a>
               </h6>
             </div>
             <div className="flex flex-col text-right">
               <div className="flex">
-                <div className="italic text-sm">August 2024 - December 2024</div>
+                <div className="italic text-sm">
+                  August 2024 - December 2024
+                </div>
               </div>
             </div>
           </div>
           <div className="mt-2 text-left text-md">
             <p>
-            Guided students through hands-on lab sessions in Database Management Systems, reinforcing theoretical concepts with practical SQL exercises. Assisted in debugging queries, designing schemas, and understanding normalization, transactions, and indexing.
+              Guided students through hands-on lab sessions in Database
+              Management Systems, reinforcing theoretical concepts with
+              practical SQL exercises. Assisted in debugging queries, designing
+              schemas, and understanding normalization, transactions, and
+              indexing.
             </p>
           </div>
           <div className="text-left">
@@ -125,7 +213,9 @@ const Experience = () => {
                 target="_blank"
                 className="flex px-2 py-1 rounded hover:bg-[#313131] text-sm items-center mt-3 text-white w-25"
               >
-                <span className="text-[#ADB7BE] group-hover:underline text-md">View certificate</span>
+                <span className="text-[#ADB7BE] group-hover:underline text-md">
+                  View certificate
+                </span>
                 <Image
                   src="/images/maximize.png"
                   width={15}
